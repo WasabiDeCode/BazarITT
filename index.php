@@ -19,7 +19,7 @@ session_start();
           if($user_data['Password'] === $Password){
             $_SESSION['NumControl'] = $user_data['NumControl']; 
             
-            header("Location: welcome.php");
+            header("Location: index2.php");
             die();
           }
         }

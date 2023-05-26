@@ -40,7 +40,7 @@ session_start();
           <a href="welcome.php">marketplace</a>
         </li>
         <li>
-          <a href="user.html">mi cuenta</a>
+          <a href="post.php">mi cuenta</a>
         </li>
         <li>
           <a href="contact.html">contacto</a>
@@ -71,11 +71,12 @@ session_start();
     <h1>Bazar ITT</h1>
     <h2>Bienvenido, <?php echo $user_data['NombreAlumno'];?></h2>
     <h3>Nombre del producto</h3>
-    <p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit dolor eget urna fermentum, sed maximus arcu bibendum. Vivamus nec nisl ut lacus commodo elementum. Sed et mattis dolor, vel egestas mi. Duis eget neque augue. Aliquam placerat tellus quis justo faucibus, tincidunt feugiat eros cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac vulputate dolor. Phasellus elit dui, porta non nulla sed, maximus fringilla orci. Nulla ultrices erat sapien, et elementum odio eleifend ut. Phasellus ac faucibus elit, elementum ultrices massa. Proin maximus quis velit non luctus. Donec sit amet magna sit amet libero tempus euismod. Quisque imperdiet, arcu eget egestas sagittis, mauris leo volutpat sem, mollis varius lacus tortor sed dolor. Suspendisse potenti.</p>
+    <p><b>Descripcion: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit dolor eget urna fermentum, sed maximus arcu bibendum. Vivamus nec nisl ut lacus commodo elementum. Sed et mattis dolor, vel egestas mi. Duis eget neque augue. Aliquam placerat tellus quis justo faucibus, tincidunt feugiat eros cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac vulputate dolor. Phasellus elit dui, porta non nulla sed, maximus fringilla orci. Nulla ultrices erat sapien, et elementum odio eleifend ut. Phasellus ac faucibus elit, elementum ultrices massa. Proin maximus quis velit non luctus. Donec sit amet magna sit amet libero tempus euismod. Quisque imperdiet, arcu eget egestas sagittis, mauris leo volutpat sem, mollis varius lacus tortor sed dolor. Suspendisse potenti.</p>
 
     <p><b>Precio: </b>$420</p>
     <p><b>Contacto del Vendedor: </b>664-123-4567</p>
-    <img >
+    <p><b>Imagen </b></p>
+    <img src= "fotostest/pica.jpg" style="border-radius: 8px; margin-left: 2%;">
     
     <!-- javascript -->
     <script src="app.js"></script>

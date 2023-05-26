@@ -12,6 +12,6 @@ function check_login($con)
       return $user_data;
     }
   }
-  header("Location: index.php");
+  header("Location: index2.php");
   die;
 }

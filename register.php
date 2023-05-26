@@ -13,7 +13,7 @@ session_start();
        //Register
        $query = "insert into alumno (NumControl, NombreAlumno, Password, NumTelefono) values ('$NumControl', '$regName', '$regPass', '$reg_Tel')";
        mysqli_query($con, $query);
-       header("Location: welcome.php");
+       header("Location: index2.php");
        die;
 
 
@@ -50,7 +50,7 @@ session_start();
         <form id="register" class="input-group" method="post" style= "left: 50px">
           <input name= "NumControl" type="text" class="input-field" placeholder="Numero de Control" required>
           <input name= "RegName" type="text" class="input-field" placeholder="Nombre" required>
-          <input name="RegTel" type="text" class="input-field" placeholder="Numero de Teléfono" required>
+          <input name="RegTel" type="text" class="input-field" placeholder="Numero de teléfono (Solo números)" required>
           <input type="text" class="input-field" placeholder="Contraseña" required>
           <input name= "RegPass" type="text" class="input-field" placeholder="Confirmar Contraseña" required>
           <br>
